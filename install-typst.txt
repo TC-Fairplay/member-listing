@@ -1,0 +1,5 @@
+To install typst-cli:
+- git clone https://github.com/typst/typst
+- cd typst
+- cargo install --path crates/typst-cli
+
