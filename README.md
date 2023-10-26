@@ -1,5 +1,7 @@
 # Member Listing
 
+![Compile Documents](https://github.com/TC-Fairplay/member-listing/actions/workflows/compile-docs.yml/badge.svg)
+
 [Typst](https://typst.app/) files to generate club member listings (as PDFs) for the protected area of the club website.
 
 ## Files
