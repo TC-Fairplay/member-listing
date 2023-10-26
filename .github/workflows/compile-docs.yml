@@ -9,10 +9,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Compile multiple Typst documents
+      - name: Compile all documents
         uses:  lvignoli/typst-action@main
         with:
           source_file: |
             junioren-a.typ
             junioren-b.typ
             aktive.typ
+
+      - name: Upload PDF files
+        uses: actions/upload-artifact@v3
+        with:
+            name: PDFs
+            path: |
+              junioren-a.pdf
+              junioren-b.pdf
+              aktive.pdf
